@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+body{
+    background-color: rgb(47, 255, 61);
+}
+
+*{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inner-box {
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+#container {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.Webtoon {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.Webtoon img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.Webtoon h2 {
+    margin-top: 0;
+}
+
+.Webtoon p {
+    margin-bottom: 0;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+    background-color: yellow;
+}
